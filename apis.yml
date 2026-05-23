@@ -1,0 +1,225 @@
+aid: unreal-engine
+name: Unreal Engine
+description: >-
+  Unreal Engine is Epic Games' real-time 3D engine for games, film,
+  broadcast, architecture, simulation, automotive, and live events. The
+  engine is shipped as a downloadable editor, source on GitHub (under the
+  Unreal Engine EULA), and a deep C++ and Blueprint API surface rather than
+  a public REST API. The developer-facing surface includes the Unreal C++
+  API reference, the Blueprint visual scripting API, the Online Subsystem
+  (OSS) abstraction over platform backends, the Pixel Streaming framework
+  for streaming Unreal apps over WebRTC, the Render Hardware Interface
+  (RHI), the Slate UI framework, and a plugin and Marketplace ecosystem
+  (now Fab). Programmatic backend integration for Unreal-built games is
+  typically delivered via Epic Online Services (EOS), profiled separately.
+  This profile documents Unreal Engine as an SDK and tooling surface rather
+  than as a REST API.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://www.unrealengine.com
+created: '2024-01-01'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+type: Index
+access: 3rd-Party
+tags:
+  - 3D
+  - Blueprint
+  - C++
+  - Game Development
+  - Game Engine
+  - Pixel Streaming
+  - Plugin
+  - Real-Time
+  - Rendering
+  - RHI
+  - SDK
+  - Unreal Engine
+  - WebRTC
+apis:
+  - aid: unreal-engine:unreal-engine-cpp-api
+    name: Unreal Engine C++ API
+    description: >-
+      The Unreal Engine C++ API is the primary programmatic surface of the
+      engine. It is shipped as engine source on GitHub (under the Unreal
+      Engine EULA) and documented as a per-module class reference covering
+      Actors, Components, GameFramework, Subsystems, Slate, RHI, Renderer,
+      AnimGraph, Niagara, Chaos, AI, and more. Developers extend the engine
+      by writing C++ classes and modules in their project or as plugins.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://dev.epicgames.com/documentation/en-us/unreal-engine/cplusplus-in-unreal-engine
+    baseURL: https://dev.epicgames.com/documentation/en-us/unreal-engine
+    tags:
+      - C++
+      - SDK
+      - Source
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/documentation/en-us/unreal-engine/cplusplus-in-unreal-engine
+      - type: APIReference
+        url: https://dev.epicgames.com/documentation/en-us/unreal-engine/API
+      - type: GitHubRepository
+        url: https://github.com/EpicGames/UnrealEngine
+  - aid: unreal-engine:blueprint-visual-scripting
+    name: Unreal Blueprint Visual Scripting
+    description: >-
+      Blueprints are Unreal Engine's visual scripting system. Blueprint
+      nodes wrap the underlying C++ API, letting designers and programmers
+      build gameplay, UI, and tooling logic without writing C++. The
+      Blueprint API surface mirrors much of the engine's UFUNCTION-exposed
+      C++ surface.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprints-visual-scripting-in-unreal-engine
+    baseURL: https://dev.epicgames.com/documentation/en-us/unreal-engine
+    tags:
+      - Blueprint
+      - Scripting
+      - Visual Scripting
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprints-visual-scripting-in-unreal-engine
+  - aid: unreal-engine:online-subsystem
+    name: Unreal Online Subsystem (OSS / OSSv2)
+    description: >-
+      The Online Subsystem is Unreal's abstraction over platform online
+      backends (Steam, PlayStation, Xbox Live, Nintendo, EOS, Google Play,
+      Apple GameCenter, Discord). It exposes a consistent C++ interface
+      for identity, sessions, friends, presence, achievements, leaderboards,
+      voice, store, and entitlements that maps onto platform-specific or
+      EOS-backed implementations.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://dev.epicgames.com/documentation/en-us/unreal-engine/online-subsystem-in-unreal-engine
+    baseURL: https://dev.epicgames.com/documentation/en-us/unreal-engine
+    tags:
+      - Achievements
+      - Cross-Platform
+      - Identity
+      - Online Services
+      - Sessions
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/documentation/en-us/unreal-engine/online-subsystem-in-unreal-engine
+  - aid: unreal-engine:pixel-streaming
+    name: Unreal Pixel Streaming
+    description: >-
+      Pixel Streaming streams an Unreal Engine application running on a
+      server to remote browser clients over WebRTC. The framework includes
+      a Pixel Streaming plugin in the engine, a signalling and matchmaker
+      service ("Cirrus" / "Frontend"), a UE Pixel Streaming Infrastructure
+      reference deployment, and a JavaScript client library for browser
+      integration. Used for in-browser product configurators, automotive,
+      digital twins, and cloud-rendered games.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://dev.epicgames.com/documentation/en-us/unreal-engine/pixel-streaming-in-unreal-engine
+    baseURL: https://dev.epicgames.com/documentation/en-us/unreal-engine
+    tags:
+      - Browser
+      - Cloud Rendering
+      - Pixel Streaming
+      - Streaming
+      - WebRTC
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/documentation/en-us/unreal-engine/pixel-streaming-in-unreal-engine
+      - type: GitHubRepository
+        url: https://github.com/EpicGamesExt/PixelStreamingInfrastructure
+  - aid: unreal-engine:render-hardware-interface
+    name: Unreal Render Hardware Interface (RHI)
+    description: >-
+      The Render Hardware Interface is Unreal's abstraction over graphics
+      APIs (Direct3D 11/12, Vulkan, Metal, OpenGL ES). Engine and plugin
+      developers write rendering code against the RHI rather than directly
+      against a GPU API, and the RHI maps that code onto the active backend
+      at runtime.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://dev.epicgames.com/documentation/en-us/unreal-engine/graphics-programming-overview-for-unreal-engine
+    baseURL: https://dev.epicgames.com/documentation/en-us/unreal-engine
+    tags:
+      - D3D12
+      - GPU
+      - Graphics
+      - Metal
+      - Rendering
+      - RHI
+      - Vulkan
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/documentation/en-us/unreal-engine/graphics-programming-overview-for-unreal-engine
+  - aid: unreal-engine:unreal-plugins-and-fab
+    name: Unreal Plugins and Fab Marketplace
+    description: >-
+      Unreal Engine has a first-class plugin architecture and a content
+      and code marketplace. The historical Unreal Engine Marketplace was
+      consolidated into Fab, Epic's unified content marketplace for
+      Unreal, Twinmotion, RealityCapture, and beyond. Plugins extend the
+      editor and runtime in C++ and Blueprint and ship with their own
+      Plugin Descriptor (.uplugin) manifest.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://dev.epicgames.com/documentation/en-us/unreal-engine/plugins-in-unreal-engine
+    baseURL: https://dev.epicgames.com/documentation/en-us/unreal-engine
+    tags:
+      - Fab
+      - Marketplace
+      - Plugins
+    properties:
+      - type: Documentation
+        url: https://dev.epicgames.com/documentation/en-us/unreal-engine/plugins-in-unreal-engine
+      - type: Marketplace
+        url: https://www.fab.com
+common:
+  - url: https://www.unrealengine.com
+    name: Unreal Engine Website
+    type: Website
+  - url: https://dev.epicgames.com/documentation/en-us/unreal-engine
+    name: Unreal Engine Documentation
+    type: Documentation
+  - url: https://dev.epicgames.com/community/unreal-engine
+    name: Unreal Engine Community
+    type: Community
+  - url: https://dev.epicgames.com/community/unreal-engine/learning
+    name: Unreal Online Learning
+    type: Learning
+  - url: https://forums.unrealengine.com
+    name: Unreal Engine Forums
+    type: Forum
+  - url: https://github.com/EpicGames/UnrealEngine
+    name: Unreal Engine on GitHub
+    type: GitHubRepository
+  - url: https://github.com/EpicGamesExt
+    name: Epic Games Ext on GitHub
+    type: GitHubOrganization
+  - url: https://www.fab.com
+    name: Fab Marketplace
+    type: Marketplace
+  - url: https://www.unrealengine.com/marketplace-guidelines
+    name: Marketplace Guidelines
+    type: Guidelines
+  - url: https://www.unrealengine.com/eula
+    name: Unreal Engine EULA
+    type: License
+  - url: https://www.unrealengine.com/blog
+    name: Unreal Engine Blog
+    type: Blog
+  - url: https://www.unrealengine.com/release-notes
+    name: Unreal Engine Release Notes
+    type: ReleaseNotes
+  - url: https://issues.unrealengine.com
+    name: Unreal Engine Public Issue Tracker
+    type: IssueTracker
+  - url: https://www.unrealengine.com/support
+    name: Unreal Engine Support
+    type: Support
+  - url: https://www.youtube.com/@UnrealEngine
+    name: Unreal Engine on YouTube
+    type: YouTube
+  - url: https://x.com/UnrealEngine
+    name: Unreal Engine on X
+    type: X
+  - url: https://www.facebook.com/UnrealEngine
+    name: Unreal Engine on Facebook
+    type: Facebook
+  - url: https://www.linkedin.com/showcase/unreal-engine
+    name: Unreal Engine on LinkedIn
+    type: LinkedIn
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
