@@ -180,7 +180,7 @@ common:
     type: Learning
   - url: https://forums.unrealengine.com
     name: Unreal Engine Forums
-    type: Forum
+    type: Forums
   - url: https://github.com/EpicGames/UnrealEngine
     name: Unreal Engine on GitHub
     type: GitHubRepository

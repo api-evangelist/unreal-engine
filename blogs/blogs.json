@@ -2,16 +2,11 @@
   "repo": "unreal-engine",
   "feeds": [
     {
-      "source": "https://www.unrealengine.com/rss",
-      "feed_url": "https://www.unrealengine.com/rss",
-      "saved": 0,
-      "error": "no_feed_no_posts"
-    },
-    {
       "source": "https://www.unrealengine.com/blog",
-      "error": "HTTPError"
+      "saved": 0,
+      "error": "HTTP 403 Forbidden on all fetch attempts"
     }
   ],
-  "post_count": 3,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T13:18:59Z",
+  "post_count": 17
 }
