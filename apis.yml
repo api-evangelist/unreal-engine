@@ -166,6 +166,10 @@ apis:
       - type: Marketplace
         url: https://www.fab.com
 common:
+  - type: VulnerabilityDisclosure
+    url: security/unreal-engine-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/unreal-engine-domain-security.yml
   - url: https://www.unrealengine.com
     name: Unreal Engine Website
     type: Website
