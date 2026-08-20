@@ -35,6 +35,20 @@ type: Index
 access: 3rd-Party
 tags:
   - 3D
+  - Blueprints
+  - C++
+  - Game Development
+  - Game Engine
+  - Pixel Streaming
+  - Plugin
+  - Real-Time
+  - Rendering
+  - RHI
+  - SDK
+  - Unreal Engine
+  - WebRTC
+tags_raw:
+  - 3D
   - Blueprint
   - C++
   - Game Development
@@ -83,6 +97,10 @@ apis:
     humanURL: https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprints-visual-scripting-in-unreal-engine
     baseURL: https://dev.epicgames.com/documentation/en-us/unreal-engine
     tags:
+      - Blueprints
+      - Scripting
+      - Visual Scripting
+    tags_raw:
       - Blueprint
       - Scripting
       - Visual Scripting
