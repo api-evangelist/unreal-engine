@@ -14,6 +14,18 @@ description: >-
   typically delivered via Epic Online Services (EOS), profiled separately.
   This profile documents Unreal Engine as an SDK and tooling surface rather
   than as a REST API.
+deliveryModel:
+  model: unknown
+  license: Unreal Engine EULA
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
