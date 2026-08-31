@@ -47,7 +47,7 @@ type: Index
 access: 3rd-Party
 tags:
   - 3D
-  - Blueprints
+  - Blueprint
   - C++
   - Game Development
   - Game Engine
@@ -109,7 +109,7 @@ apis:
     humanURL: https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprints-visual-scripting-in-unreal-engine
     baseURL: https://dev.epicgames.com/documentation/en-us/unreal-engine
     tags:
-      - Blueprints
+      - Blueprint
       - Scripting
       - Visual Scripting
     tags_raw:
