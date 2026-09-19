@@ -52,7 +52,7 @@ tags:
   - Game Development
   - Game Engine
   - Pixel Streaming
-  - Plugin
+  - Plugins
   - Real-Time
   - Rendering
   - RHI
@@ -176,6 +176,14 @@ apis:
     humanURL: https://dev.epicgames.com/documentation/en-us/unreal-engine/graphics-programming-overview-for-unreal-engine
     baseURL: https://dev.epicgames.com/documentation/en-us/unreal-engine
     tags:
+      - D3D12
+      - GPU
+      - Graphics
+      - Metals
+      - Rendering
+      - RHI
+      - Vulkan
+    tags_raw:
       - D3D12
       - GPU
       - Graphics
