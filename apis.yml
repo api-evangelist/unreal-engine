@@ -135,6 +135,12 @@ apis:
       - Achievements
       - Cross-Platform
       - Identity
+      - Online-Services
+      - Sessions
+    tags_raw:
+      - Achievements
+      - Cross-Platform
+      - Identity
       - Online Services
       - Sessions
     properties:
