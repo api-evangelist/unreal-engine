@@ -1,4 +1,4 @@
-# unreal-engine
+# Unreal Engine
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Unreal Engine (Epic) — Unreal SDK + Pixel Streaming + RHI
+Unreal Engine is Epic Games' real-time 3D engine for games, film, broadcast, architecture, simulation, automotive, and live events. The engine is shipped as a downloadable editor, source on GitHub (under the Unreal Engine EULA), and a deep C++ and Blueprint API surface rather than a public REST API. The developer-facing surface includes the Unreal C++ API reference, the Blueprint visual scripting API, the Online Subsystem (OSS) abstraction over platform backends, the Pixel Streaming framework for streaming Unreal apps over WebRTC, the Render Hardware Interface (RHI), the Slate UI framework, and a plugin and Marketplace ecosystem (now Fab). Programmatic backend integration for Unreal-built games is typically delivered via Epic Online Services (EOS), profiled separately. This profile documents Unreal Engine as an SDK and tooling surface rather than as a REST API.
+
+**Areas:** 3D · Blueprints · C++ · Game Development · Game Engine · Pixel Streaming · Plugins · Real-Time · Rendering · RHI · SDK · Unreal Engine
+
+## Unreal Engine on APIs.io
+
+Everything profiled for Unreal Engine is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/unreal-engine/](https://apis.io/providers/unreal-engine/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Unreal Engine C++ API](https://apis.io/apis/unreal-engine/unreal-engine-cpp-api/) — The Unreal Engine C++ API is the primary programmatic surface of the engine. It is shipped as engine source on GitHub (under the Unreal Engine EULA) and…
+- [Unreal Blueprint Visual Scripting](https://apis.io/apis/unreal-engine/blueprint-visual-scripting/) — Blueprints are Unreal Engine's visual scripting system. Blueprint nodes wrap the underlying C++ API, letting designers and programmers build gameplay, UI,…
+- [Unreal Online Subsystem (OSS / OSSv2)](https://apis.io/apis/unreal-engine/online-subsystem/) — The Online Subsystem is Unreal's abstraction over platform online backends (Steam, PlayStation, Xbox Live, Nintendo, EOS, Google Play, Apple GameCenter,…
+- [Unreal Pixel Streaming](https://apis.io/apis/unreal-engine/pixel-streaming/) — Pixel Streaming streams an Unreal Engine application running on a server to remote browser clients over WebRTC. The framework includes a Pixel Streaming…
+- [Unreal Render Hardware Interface (RHI)](https://apis.io/apis/unreal-engine/render-hardware-interface/) — The Render Hardware Interface is Unreal's abstraction over graphics APIs (Direct3D 11/12, Vulkan, Metal, OpenGL ES). Engine and plugin developers write…
+- [Unreal Plugins and Fab Marketplace](https://apis.io/apis/unreal-engine/unreal-plugins-and-fab/) — Unreal Engine has a first-class plugin architecture and a content and code marketplace. The historical Unreal Engine Marketplace was consolidated into Fab,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Unreal Engine Domain Security](https://apis.io/security/unreal-engine/unreal-engine-domain-security/)
+- [Unreal Engine Vulnerability Disclosure](https://apis.io/security/unreal-engine/unreal-engine-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Unreal Engine Plans Pricing](https://apis.io/plans/unreal-engine/unreal-engine-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Unreal Engine Rate Limits](https://apis.io/rate-limits/unreal-engine/unreal-engine-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Unreal Engine Finops](https://apis.io/finops/unreal-engine/unreal-engine-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.unrealengine.com)
+- [Documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine)
+- [Support](https://www.unrealengine.com/support)
+- [Blog](https://www.unrealengine.com/blog)
+- [GitHub](https://github.com/EpicGamesExt)
+
+## API Evangelist rating
+
+**Kin Score 16.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/unreal-engine/](https://apis.io/providers/unreal-engine/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Unreal Engine: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/unreal-engine/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
